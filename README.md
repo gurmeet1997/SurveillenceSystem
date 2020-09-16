@@ -25,12 +25,12 @@ Masked face detection is done in IIVPFirstReview.ipynb
 4.Google colab has been used  
 
 
-The steps that we have followed here are as follows.
-1.First mount the drive into google colab
-2.Extract the data set into the runtime environment.
-3.Execute each step in the google colab after importing the necessary libraries.
-4.After the model is fitted and trained go to the next step
-5.Now a google api is used to capture the image from the webcam that has been taken from here.once the image is captured it is resized to 150*150(cause is the size of the image with which we have trained the model and pass it to predictFromImage(img) function that will give the score like 1 is for masked and 0 for unmasked.
+The steps that we have followed here are as follows.  
+1.First mount the drive into google colab  
+2.Extract the data set into the runtime environment.  
+3.Execute each step in the google colab after importing the necessary libraries.  
+4.After the model is fitted and trained go to the next step  
+5.Now a google api is used to capture the image from the webcam that has been taken from here.once the image is captured it is resized to 150*150(cause is the size of the image with which we have trained the model and pass it to predictFromImage(img) function that will give the score like 1 is for masked and 0 for unmasked.  
 
 
 
